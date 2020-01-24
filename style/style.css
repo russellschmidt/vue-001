@@ -1,0 +1,10 @@
+/* style/style.css */
+
+#app {
+  margin: 0 5px;
+}
+
+.topnav_list-main {
+  padding-left: 0;
+  list-style-type: none;
+}

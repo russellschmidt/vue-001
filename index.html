@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Vue Test</title>
+
+  <!-- development version, includes helpful console warnings -->
+
+  <link rel="stylesheet" href="style/normalize.css"/>
+  <link rel="stylesheet" href="style/style.css"/>
+</head>
+
+<body>
+  <div id='app'>
+
+    <header class="topnav">
+      <h1>{{ message }}</h1>
+      <nav>
+        <ul class="topnav_list-main">
+          <li>Nav Boy</li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section>
+
+      <div>
+        <button v-on:click="fart">click here</button>
+      </div>
+    
+      <article>
+        <header>
+          <h2>Favorite position: {{ number }} </h2>
+          <p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
+        </header>
+        <p>If one examines the premodernist paradigm of consensus, one is faced with a
+            choice: either accept substructural discourse or conclude that government is
+            intrinsically impossible. Lacan’s analysis of the premodernist paradigm of
+            consensus states that sexuality is capable of social comment.</p>
+      </article>
+      
+      <article>
+        <header>
+          <h2>Fart count: {{ fartcount }} </h2>
+          <p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
+        </header>
+        <p>Therefore, the absurdity, and subsequent collapse, of substructural
+            discourse depicted in Fellini’s La Dolce Vita is also evident in 8
+            1/2. A number of narratives concerning the premodernist paradigm of
+            consensus exist.</p>
+      </article>
+      
+    </section>
+  
+    <aside>
+      <h2>About section</h2>
+      <p>It could be said that Debord uses the term ‘postsemioticist capitalism’ to
+          denote the common ground between class and sexual identity. If the premodernist
+          paradigm of consensus holds, we have to choose between textual sublimation and
+          subcultural capitalism.</p>
+    </aside>
+  
+    <footer>
+      <p>Copyright 2020 Russell Schmidt</p>
+    </footer>
+
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
